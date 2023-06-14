@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Header, Banner } from "@mono/ui";
+import { Header, Banner, Menu } from "@mono/ui";
 
 const menuLeft = [
   {
@@ -37,6 +37,7 @@ export default function Home() {
         logo={<Image src={"kfc-logo.svg"} width={32} height={32} />}
       />
       <Banner image={<img src={"/kfc-banner.jpg"} className="object-fit" />} />
+      <Menu menuUrl="http://localhost:3003/kfc-menu.json" />
     </main>
   );
 }

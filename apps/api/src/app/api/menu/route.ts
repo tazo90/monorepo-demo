@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server'
- 
+import { NextResponse } from "next/server";
+
 export async function GET() {
   // const res = await fetch('https://data.mongodb-api.com/...', {
   //   method: 'POST',
@@ -9,8 +9,8 @@ export async function GET() {
   //   },
   //   body: JSON.stringify({ time: new Date().toISOString() }),
   // })
- 
+
   // const data = await res.json()
- 
-  return NextResponse.json({ menu: 'ok'})
+
+  return NextResponse.json({ data: "test" });
 }

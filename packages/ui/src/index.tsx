@@ -1,7 +1,8 @@
 import * as React from "react";
 
 // component exports
-export * from "./Button";
-export * from "./Header";
-export * from "./BaseLayout";
-export * from "./Banner";
+export * from "./button";
+export * from "./header";
+export * from "./base-layout";
+export * from "./banner";
+export * from "./menu";
