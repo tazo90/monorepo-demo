@@ -1,5 +1,5 @@
 {
-  "name": "types",
+  "name": "@mono/types",
   "version": "0.0.0",
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
@@ -10,7 +10,7 @@
   "devDependencies": {
     "@types/react": "^18.2.0",
     "eslint": "^7.32.0",
-    "config": "workspace:*",
+    "@mono/config": "workspace:*",
     "typescript": "^4.5.2"
   }
 }

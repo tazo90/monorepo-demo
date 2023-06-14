@@ -1,5 +1,9 @@
+import { Header } from "@mono/ui"
+
 export default function Home() {
   return (
-    <main>KFC</main>
+    <main>
+      <Header />
+    </main>
   )
 }
