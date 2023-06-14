@@ -12,6 +12,7 @@
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",    
     "react": "^17.0.2",
+    "next": "^13.4.1",
     "typescript": "^4.5.2",
     "@mono/config": "workspace:*",
     "@mono/tsconfig": "workspace:*"

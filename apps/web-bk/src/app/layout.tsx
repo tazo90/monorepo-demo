@@ -1,7 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { BaseLayout } from '@mono/ui'
 
 export const metadata = {
   title: 'Burger King',
@@ -15,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body><BaseLayout>{children}</BaseLayout></body>
     </html>
   )
 }
