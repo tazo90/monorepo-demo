@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Header } from "@mono/ui";
+import { Banner, Header } from "@mono/ui";
 
 const menuLeft = [
   {
@@ -12,7 +12,7 @@ const menuLeft = [
     url: "/promotions",
   },
   {
-    name: "Restaurants",
+    name: "Restauracje",
     url: "/restaurants",
   },
 ];
@@ -36,6 +36,7 @@ export default function Home() {
         menuRight={menuRight}
         logo={<Image src={"/bk-logo.png"} width={32} height={32} />}
       />
+      <Banner image={<img src={"/bk-banner.jpg"} className="object-fit" />} />
     </main>
   );
 }

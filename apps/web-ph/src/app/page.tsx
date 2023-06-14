@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Header } from "@mono/ui";
+import { Banner, Header } from "@mono/ui";
 
 const menuLeft = [
   {
@@ -8,7 +8,7 @@ const menuLeft = [
     url: "/menu",
   },
   {
-    name: "Restaurants",
+    name: "Restauracje",
     url: "/restaurants",
   },
   {
@@ -36,6 +36,7 @@ export default function Home() {
         menuRight={menuRight}
         logo={<Image src={"/ph-logo.svg"} width={100} height={100} />}
       />
+      <Banner image={<img src={"/ph-banner.jpg"} className="object-fit" />} />
     </main>
   );
 }

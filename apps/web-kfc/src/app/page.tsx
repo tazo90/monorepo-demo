@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Header } from "@mono/ui";
+import { Header, Banner } from "@mono/ui";
 
 const menuLeft = [
   {
@@ -30,12 +30,13 @@ const menuRight = [
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col">
       <Header
         menuLeft={menuLeft}
         menuRight={menuRight}
         logo={<Image src={"kfc-logo.svg"} width={32} height={32} />}
       />
+      <Banner image={<img src={"/kfc-banner.jpg"} className="object-fit" />} />
     </main>
   );
 }
