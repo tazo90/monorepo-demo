@@ -5,7 +5,7 @@ export const Header = ({ logo, menuLeft, menuRight }) => {
     <div className="flex">
       <div className="flex items-center justify-between w-full text-xs font-semibold px-12">
         <div className="flex items-center space-x-6">
-          {logo}
+          <Link href="/">{logo}</Link>
           {menuLeft.map((item) => (
             <Link href={item.url} className="uppercase">
               {item.name}
