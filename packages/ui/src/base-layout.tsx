@@ -1,5 +1,7 @@
 export function BaseLayout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen px-28 py-6">{children}</div>
+    <div className="flex flex-col min-h-screen px-28 pt-6 pb-20">
+      {children}
+    </div>
   );
 }
